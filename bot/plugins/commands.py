@@ -92,7 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton('Developer', url='https://t.me/Physic_hybrid'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PhysicHybridTG/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/InFoTel_Group')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
