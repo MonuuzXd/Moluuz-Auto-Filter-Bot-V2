@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/Physic_hybrid"
+                                    'Developers', url="https://t.me/TVseriesLand4U"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/Physic_hybrid"
+                                    'Developer', url="https://t.me/TVseriesLand4U"
                                 )
                         ]
                     ]
