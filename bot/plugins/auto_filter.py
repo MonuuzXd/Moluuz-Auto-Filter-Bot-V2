@@ -182,13 +182,13 @@ async def auto_filter(bot, update):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(f"⚜ {Join Our Chanel} ⚜", url=https://t.me/MovieLandUpdates)
+                            InlineKeyboardButton(f"⚜ Join Our Chanel ⚜", url=https://t.me/MovieLandUpdates)
                         ]
                     )
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚜ {Join Our channel} ⚜", url=https://t.me/MovieLandUpdates)
+                        InlineKeyboardButton(f"⚜ Join Our channel ⚜", url=https://t.me/MovieLandUpdates)
                     )
                 
             for x in ibuttons:
