@@ -155,6 +155,9 @@ async def auto_filter(bot, update):
         result[0].append([
             InlineKeyboardButton(f"📘 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
+        result[0].append([
+            InlineKeyboardButton(f"🔰 Join Our Channel🔰", url="https://t.me/username")
+        ])
         
         
         # if show_invite is True Append invite link buttons
