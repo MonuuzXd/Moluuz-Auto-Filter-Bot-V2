@@ -209,7 +209,7 @@ async def auto_filter(bot, update):
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/file/7fbf27e4dd9a278276641.jpg",
                 text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>Requested By <b><code>{update.from_user.first_name}</code>",
-                caption=f"👉 <a href='link'> text</a>",
+                caption=f"👉 <a href='https://t.me/MovieLandUpdates'> join chanel</a>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
