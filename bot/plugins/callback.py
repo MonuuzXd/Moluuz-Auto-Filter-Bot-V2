@@ -158,6 +158,11 @@ async def cb_navg(bot, update: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode="html"
         )
+@Client.on_callback_query(filters.regex(r"popup"), group=3)
+async def cb_navg(bot, update):
+  await update.answer('Your PopUp Text Here..!', True)
+
+
 
 
 
