@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-         Send_message = await update.reply_reply(
+         Send_message = await update.reply(
                          "No one can help you",
                          reply_markup=InlineKeyboardMarkup([
                            [
