@@ -160,9 +160,7 @@ async def cb_navg(bot, update: CallbackQuery):
         )
 @Client.on_callback_query(filters.regex(r"popup"), group=3)
 async def cb_navg(bot, update):
-  await update.answer('Your PopUp Text Here..!', True)
-
-
+  await update.answer('No one can help you..!', True)
 
 
 
