@@ -217,21 +217,18 @@ async def auto_filter(bot, update):
         try:
             await bot.send_photo(
                ia = imdb.IMDb() 
-               api_key = "c15558e75emsh75f820bde2d32f8p114cefjsnc2b071a84978"
+               api_key = "<your api key>"
                movie_name="<movie name>"
                search = ia.search_movie(movie_name) 
                id='tt'+search[0].movieID
                url= 'http://www.omdbapi.com/?i='+id+'&apikey='+api_key
-               x=urllib.request.urlopen(url)
-               for line in x:
-               x=line.decode()
-               data=json.loads(x)
-               image = data['Poster']
-               print(image) 
-                
-
-            )
-  
+               x=urllib.request.urlopen(url).decode()
+               data = json.loads(x)
+               image = data[0]['Poster']
+               await bot.send_photo(
+               update.chat.id,
+               image
+             )
         except ButtonDataInvalid:
             print(result[0])
         
