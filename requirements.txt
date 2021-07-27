@@ -4,4 +4,4 @@ Pyrogram
 Pymongo
 Requests 
 TgCrypto
-python-imdbpy
+IMBdPY
