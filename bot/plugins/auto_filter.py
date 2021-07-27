@@ -213,12 +213,20 @@ async def auto_filter(bot, update):
 
         try:
             await bot.send_photo(
-                chat_id = update.chat.id,
-                photo="https://telegra.ph/file/7fbf27e4dd9a278276641.jpg",
-                caption=f"Found {(len_results)} Results For Your Query: <code>{query}</code>Requested By <b><code>{update.from_user.first_name}</code>", 
-                reply_markup=reply_markup,
-                parse_mode="html",
-                reply_to_message_id=update.message_id
+               ia = imdb.IMDb() 
+               api_key = "c15558e75emsh75f820bde2d32f8p114cefjsnc2b071a84978"
+               movie_name="<movie name>"
+               search = ia.search_movie(movie_name) 
+               id='tt'+search[0].movieID
+               url= 'http://www.omdbapi.com/?i='+id+'&apikey='+api_key
+               x=urllib.request.urlopen(url)
+               for line in x:
+               x=line.decode()
+               data=json.loads(x)
+               image = data['Poster']
+               print(image) 
+                
+
             )
   
         except ButtonDataInvalid:
