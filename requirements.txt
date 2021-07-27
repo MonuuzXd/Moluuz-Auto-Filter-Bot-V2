@@ -4,4 +4,4 @@ Pyrogram
 Pymongo
 Requests 
 TgCrypto
-Imdb.py
+Imdbpy
