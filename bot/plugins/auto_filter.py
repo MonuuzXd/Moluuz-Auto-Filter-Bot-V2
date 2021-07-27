@@ -216,7 +216,7 @@ async def auto_filter(bot, update):
 
         try:
                ia = imdb.IMDb() 
-               api_key ="<imdb-internet-movie-database-unofficial.p.rapidapi.com>"
+               api_key ="<k_t8yythdk>"
                movie_name="<movie name>"
                search = ia.search_movie(movie_name) 
                id='tt'+search[0].movieID
