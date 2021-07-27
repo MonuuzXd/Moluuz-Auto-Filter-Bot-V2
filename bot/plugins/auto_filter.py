@@ -215,7 +215,6 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_photo(
                ia = imdb.IMDb() 
                api_key ="<c15558e75emsh75f820bde2d32f8p114cefjsnc2b071a84978>"
                movie_name="<movie name>"
