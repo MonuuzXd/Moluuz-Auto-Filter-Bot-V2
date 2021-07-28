@@ -222,7 +222,7 @@ async def auto_filter(bot, update):
                id='tt'+search[0].movieID
                url= 'http://www.omdbapi.com/?i='+id+'&apikey='+api_key
                x=urllib.request.urlopen(url).decode()
-               data = json.loads(x)
+              print(data) = json.loads(x)
                image = data[0]['Poster']
                await bot.send_photo(
                update.chat.id,
