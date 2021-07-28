@@ -216,7 +216,7 @@ async def auto_filter(bot, update):
 
         try:
                ia = imdb.IMDb() 
-               api_key ="<7e283d32>"
+               api_key ="http://img.omdbapi.com/?i=tt0848228&apikey=7e283d32"
                movie_name="<movie name>"
                search = ia.search_movie(movie_name) 
                id='tt'+search[0].movieID
