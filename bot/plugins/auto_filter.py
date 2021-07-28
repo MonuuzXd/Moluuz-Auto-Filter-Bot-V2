@@ -216,7 +216,7 @@ async def auto_filter(bot, update):
 
         try:
                ia = imdb.IMDb() 
-               api_key ="<q=Movie&tt=Physic%20hybrid&s=01&l=1>"
+               api_key ="<>"
                movie_name="<movie name>"
                search = ia.search_movie(movie_name) 
                id='tt'+search[0].movieID
