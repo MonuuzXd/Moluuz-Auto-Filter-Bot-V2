@@ -48,11 +48,11 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Physic_hybrid">Physic_Hybrid</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Itz_me_monuuz">Monuuz_Xd</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/PhysicHybridTG/Adv-Auto-Filter-Bot-V2">Click Me</a></i>
+<b>➥ Source Code</b> : <i><a href="https://github.com/MonuuzXd/Moluuz-Auto-Filter-Bot-V2/actions">Click Me</a></i>
 """
