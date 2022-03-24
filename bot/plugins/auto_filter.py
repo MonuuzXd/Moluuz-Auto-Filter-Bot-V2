@@ -166,7 +166,7 @@ async def auto_filter(bot, update):
             InlineKeyboardButton(f"📘 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         result[0].insert(0, [
-            InlineKeyboardButton(f"🔰 Join Our Channel🔰", url="https://t.me/MovieLandUpdates")
+            InlineKeyboardButton(f"🔰 Join Our Channel🔰", url="https://t.me/+w9MjddJnCQc4ODQ9")
         ])
             
         
@@ -196,13 +196,13 @@ async def auto_filter(bot, update):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(f"⚜ Join Our Chanel ⚜", url="https://t.me/MovieLandUpdates")
+                            InlineKeyboardButton(f"⚜ Join Our Chanel ⚜", url="https://t.me/+w9MjddJnCQc4ODQ9")
                         ]
                     )
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚜ Join Our channel ⚜", url="https://t.me/MovieLandUpdates")
+                        InlineKeyboardButton(f"⚜ Join Our channel ⚜", url="https://t.me/+w9MjddJnCQc4ODQ9")
                     )
                 
             for x in ibuttons:
