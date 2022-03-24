@@ -36,7 +36,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️Join Our channel♻️', url="https://t.me/MovieLandUpdates"
+                                    '🐝Join Our channel🐝', url="https://t.me/+w9MjddJnCQc4ODQ9"
                                 )
                         ]
                     ]
@@ -55,7 +55,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️Join Our Chanel♻️', url="https://t.me/MovieLandUpdates"
+                                    '🐝Join Our Chanel🐝', url="https://t.me/+w9MjddJnCQc4ODQ9"
                                 )
                         ]
                     ]
@@ -74,7 +74,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/Physic_hybrid"
+                                    'Developer', url="https://t.me/Itz_me_monuuz"
                                 )
                         ]
                     ]
@@ -87,8 +87,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developer', url='https://t.me/Physic_hybrid'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PhysicHybridTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developer', url='https://t.me/Itz_me_monuuz'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/MonuuzXd/Moluuz-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/InFoTel_Group')
     ],[
